@@ -1,8 +1,19 @@
+#Library for performing speech recognition, with support for several engines and APIs, online and offline. Speech recognition engine/API support: CMU Sphinx (works offline)
 import speech_recognition as sr
+#pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline and is compatible with both Python 2 and 3
 import pyttsx3
+#pywhatkit is a Python library for sending WhatsApp messages at a certain time, it has several other features too.
+#Following are some features of pywhatkit module:
+#    Send WhatsApp messages.
+#    Play a YouTube video.
+#    Perform a Google Search.
+#    Get information on particular topic.
 import pywhatkit
+#The datetime module supplies classes for manipulating dates and times.
 import datetime as dt
+#Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.Search Wikipedia, get article summaries, get data like links and images from a page, and more
 import wikipedia as wiki
+#One line jokes for programmers (jokes as a service)
 import pyjokes
 
 
